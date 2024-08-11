@@ -14,7 +14,7 @@ export default function Roulette() {
     "鸡公煲",
     "螺蛳粉",
     "小炒菜",
-    "烧烤",
+    "烧烤摊",
     "不吃",
   ]);
 
@@ -52,6 +52,7 @@ export default function Roulette() {
 
       <Select
         mode="tags"
+        maxCount={8}
         style={{ position: "absolute", top: 100, width: "40%" }}
         placeholder="Tags Mode"
         onChange={handleChange}
