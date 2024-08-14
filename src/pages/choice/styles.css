@@ -53,6 +53,7 @@
   padding: 5px;
   cursor: pointer;
   user-select: none;
+  background-color: #db7093;
 }
 .roulette-share span {
   position: relative;

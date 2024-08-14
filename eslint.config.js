@@ -24,6 +24,5 @@ export default tseslint.config({
     ],
     quotes: ["error", "single"],
     semi: ["off"],
-    "max-len": ["error", { code: 120 }],
   },
 });
