@@ -12,11 +12,9 @@ type MenuItem = {
 };
 
 const items: MenuItem[] = [
-  { key: "/json", label: "JSON转换" },
+  { key: "/json", label: "JSON处理" },
   {
-    key: "/choice",
-    label: "选择困难",
-    children: [
+    key: "/choice", label: "选择困难", children: [
       { key: "/choice/roulette", label: "轮盘选择" },
       { key: "/choice/card", label: "卡牌选择" },
     ],
